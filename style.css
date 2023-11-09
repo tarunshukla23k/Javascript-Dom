@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#card{
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+}
+#card img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    
+}
+#card h1{
+    font-size: 30px;
+    padding: 10px;
+
+}
+#card h5{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    color: red;
+}
+#card button{
+    padding: 10px;
+    margin: 10px;
+    font-weight: 800;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#card #remove{
+    background-color: #dadada;
+    color: #111;
+}
